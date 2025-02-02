@@ -21,7 +21,7 @@ A RESTful API for managing multilingual Frequently Asked Questions (FAQs) with a
 
 ## Pre-Requisites
 
-- Node.js v16+
+- Node.js 
 
 - MongoDB Atlas account or local MongoDB instance
 
