@@ -35,27 +35,27 @@ A RESTful API for managing multilingual Frequently Asked Questions (FAQs) with a
 #### 1. Clone Repository
 ```bash
   git clone https://github.com/yourusername/multilingual-faq-api.git
-cd multilingual-faq-api
+  cd multilingual-faq-api
 ```
 #### 2. Install Dependencies
 ```bash
   git clone https://github.com/yourusername/multilingual-faq-api.git
-cd multilingual-faq-api
+  cd multilingual-faq-api
 ```
 #### 3. Environment Setup
 ```bash
   git clone https://github.com/yourusername/multilingual-faq-api.git
-cd multilingual-faq-api
+  cd multilingual-faq-api
 ```
 #### Update .env with your credentials:
 ```bash
   git clone https://github.com/yourusername/multilingual-faq-api.git
-cd multilingual-faq-api
+  cd multilingual-faq-api
 ```
 #### 4. Start Server
 ```bash
   git clone https://github.com/yourusername/multilingual-faq-api.git
-cd multilingual-faq-api
+  cd multilingual-faq-api
 ```
 
     
@@ -75,7 +75,7 @@ cd multilingual-faq-api
         {
             "_id": "679f8026e792e5a9b9838aec",
             "question": "<html><head></head><body><p>मुझे फिक्स्ड डिपॉजिट के लिए डिजिटल प्लेटफॉर्म का उपयोग क्यों करना चाहिए?</p></body></html>",
-            "answer": "<html><head></head><body><p>डिजिटल प्लेटफ़ॉर्म अक्सर उच्च ब्याज दर प्रदान करते हैं, विभिन्न विकल्पों की तुलना करने के लिए अधिक सुविधाजनक होते हैं, और इनमें प्रसंस्करण समय भी तेज़ होता है। आप प्रत्येक बैंक में शारीरिक रूप से जाए बिना एक ही स्थान पर विभिन्न बैंकों से कई सावधि जमाओं का प्रबंधन कर सकते हैं।</p></body></html>"
+            "answer": "<html><head></head><body><p>डिजिटल प्लेटफ़ॉर्म अक्सर उच्च ब्याज दर प्रदान करते हैं, विभिन्न विकल्पों की तुलना करने के लिए अधिक सुविधाजनक होते हैं, और इनमें प्रसंस्करण समय भी तेज़ होता है। आप प्रत्येक बैंक में शारीरिक रूप से जाए बिना एक ही स्थान पर विभिन्न बैंकों                        से कई सावधि जमाओं का प्रबंधन कर सकते हैं।</p></body></html>"
         }
     ]
 }
@@ -93,21 +93,25 @@ cd multilingual-faq-api
     "message": "FAQs created successfully.",
     "faq": {
         "question": "<p>Why should I use digital platforms for fixed deposits?</p>",
-        "answer": "<p>Digital platforms often offer higher interest rates, are more convenient for comparing different options, and have faster processing times. You can manage multiple fixed deposits from different banks in one place without having to visit each bank physically.</p>",
+        "answer": "<p>Digital platforms often offer higher interest rates, are more convenient for comparing different options, and have faster processing times. You can manage multiple fixed deposits from different banks in one place without 
+                  having to visit each bank physically.</p>",
         "translations": {
             "en": {
                 "question": "<p>Why should I use digital platforms for fixed deposits?</p>",
-                "answer": "<p>Digital platforms often offer higher interest rates, are more convenient for comparing different options, and have faster processing times. You can manage multiple fixed deposits from different banks in one place without having to visit each bank physically.</p>",
+                "answer": "<p>Digital platforms often offer higher interest rates, are more convenient for comparing different options, and have faster processing times. You can manage multiple fixed deposits from different banks in one place 
+                         without having to visit each bank physically.</p>",
                 "_id": "679f802de792e5a9b9838af2"
             },
             "hi": {
                 "question": "<html><head></head><body><p>मुझे फिक्स्ड डिपॉजिट के लिए डिजिटल प्लेटफॉर्म का उपयोग क्यों करना चाहिए?</p></body></html>",
-                "answer": "<html><head></head><body><p>डिजिटल प्लेटफ़ॉर्म अक्सर उच्च ब्याज दर प्रदान करते हैं, विभिन्न विकल्पों की तुलना करने के लिए अधिक सुविधाजनक होते हैं, और इनमें प्रसंस्करण समय भी तेज़ होता है। आप प्रत्येक बैंक में शारीरिक रूप से जाए बिना एक ही स्थान पर विभिन्न बैंकों से कई सावधि जमाओं का प्रबंधन कर सकते हैं।</p></body></html>",
+                "answer": "<html><head></head><body><p>डिजिटल प्लेटफ़ॉर्म अक्सर उच्च ब्याज दर प्रदान करते हैं, विभिन्न विकल्पों की तुलना करने के लिए अधिक सुविधाजनक होते हैं, और इनमें प्रसंस्करण समय भी तेज़ होता है। आप प्रत्येक बैंक में शारीरिक रूप से जाए बिना एक ही स्थान पर विभिन्न 
+                         बैंकों से कई सावधि जमाओं का प्रबंधन कर सकते हैं।</p></body></html>",
                 "_id": "679f802de792e5a9b9838af3"
             },
             "bn": {
                 "question": "<html><head></head><body><p>কেন আমি ফিক্সড ডিপোজিটের জন্য ডিজিটাল প্ল্যাটফর্ম ব্যবহার করব?</p></body></html>",
-                "answer": "<html><head></head><body><p>ডিজিটাল প্ল্যাটফর্মগুলি প্রায়শই উচ্চ সুদের হার অফার করে, বিভিন্ন বিকল্পের তুলনা করার জন্য আরও সুবিধাজনক এবং দ্রুত প্রক্রিয়াকরণের সময় রয়েছে। আপনি শারীরিকভাবে প্রতিটি ব্যাঙ্কে না গিয়ে এক জায়গায় বিভিন্ন ব্যাঙ্ক থেকে একাধিক ফিক্সড ডিপোজিট পরিচালনা করতে পারেন।</p></body></html>",
+                "answer": "<html><head></head><body><p>ডিজিটাল প্ল্যাটফর্মগুলি প্রায়শই উচ্চ সুদের হার অফার করে, বিভিন্ন বিকল্পের তুলনা করার জন্য আরও সুবিধাজনক এবং দ্রুত প্রক্রিয়াকরণের সময় রয়েছে। আপনি শারীরিকভাবে প্রতিটি ব্যাঙ্কে না গিয়ে এক জায়গায় বিভিন্ন ব্যাঙ্ক 
+                         থেকে একাধিক ফিক্সড ডিপোজিট পরিচালনা করতে পারেন।</p></body></html>",
                 "_id": "679f802de792e5a9b9838af4"
             }
         },
@@ -166,9 +170,6 @@ cd multilingual-faq-api
 }
 ````
 
-Takes two numbers and returns the sum.
-
-
 ## Error Handling
 
 #### Sample Error Response
@@ -187,6 +188,8 @@ Takes two numbers and returns the sum.
 - 500: Internal Server Error
 - 200: success
 - 201: created/ update
+
+  
 ## Configuration
 
 #### Environment Variables
